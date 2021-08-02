@@ -1,5 +1,5 @@
 #!/bin/sh
 set -e
-cd /home/pi/Sites/node-raspberry-pi/
+cd /home/Documents/Python/tikibar/
 /usr/bin/git pull
 exit 0
