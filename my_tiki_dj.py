@@ -5,6 +5,8 @@ Created on Sun Aug  1 20:52:27 2021
 @author: Marti
 """
 
+# ssh pi@192.168.1.58
+
 import os
 import random
 from playsound import playsound
