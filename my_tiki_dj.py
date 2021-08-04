@@ -6,6 +6,7 @@ Created on Sun Aug  1 20:52:27 2021
 """
 
 # ssh pi@192.168.1.58
+#python3 /home/pi/Documents/Python/tikibar/my_tiki_dj.py
 
 import os
 import random
@@ -17,7 +18,7 @@ if __name__ == "__main__":
     # Take me to Kokomo
     print('takeoff')
     pygame.mixer.init()
-    my_tracklist = os.listdir('tracklist')
+    my_tracklist = os.listdir('/home/pi/Documents/Python/tikibar/tracklist')
     while True:
         random.shuffle(my_tracklist)
         for hit in my_tracklist:
