@@ -24,7 +24,7 @@ if __name__ == "__main__":
         for hit in my_tracklist:
             print('Now playing: {}'.format(hit))
             #playsound('tracklist/{}'.format(hit))
-            pygame.mixer.music.load('tracklist/{}'.format(hit))
+            pygame.mixer.music.load('/home/pi/Documents/Python/tikibar/tracklist/{}'.format(hit))
             pygame.mixer.music.play()
             while pygame.mixer.music.get_busy():
                 continue
